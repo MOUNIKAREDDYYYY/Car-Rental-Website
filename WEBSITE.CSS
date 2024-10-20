@@ -1,0 +1,55 @@
+nav{
+    
+    margin-top: 15px;
+    align-items: center;
+    display:flex;
+    justify-content: space-around;
+    color: white;
+
+}
+.nav > a{
+    text-decoration: none;
+    display: inline;
+    color: white;
+    margin: 10px;
+
+}
+a:hover{
+   
+    color:rgb(6, 6, 6) ;
+    font-size: large;
+    background-color: white;
+    padding: 5PX;
+    border-radius: 10PX;
+
+
+}
+div{
+    text-align: center;
+  margin-top: 10px;
+  border: 10px;
+  border-radius: 10px;
+  border-color: rgb(203, 151, 73);
+  padding: 80px;
+  margin: 80px;
+  
+}
+
+.wedd{
+    background-color:rgb(14, 12, 8);
+    color:rgb(247, 186, 6); 
+
+   
+}
+
+.looks{
+    
+    text-align: center;
+    margin-top: 10px;
+    border: 10px;
+    border-radius: 5px;
+    border-color: rgb(203, 151, 73);
+    padding: 80px;
+    margin: 80px;
+
+}

@@ -1,0 +1,13 @@
+.box1{
+    display: flex;
+}
+.box3{
+    /* margin: 20px; */
+    margin: 0px 10px 60px 50px;
+}
+button:hover{
+    color: aliceblue;
+    background-color: blue;
+    font-size: larger;
+
+}

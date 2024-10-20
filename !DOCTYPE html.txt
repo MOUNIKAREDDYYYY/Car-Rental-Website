@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World!</title>
+</head>
+<div></div>
+<body>
+   
+   
+    <header>
+        <h1>Hello World!</h1>
+    </header>
+    <nav>
+        <h3>A second level heading</h3>
+    </nav>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui,<br>
+        reiciendis, quae sed exercitationem veniam inventore ex illum quas 
+        ipsam temporibus voluptate eligendi quaerat quam? Quibusdam magnam
+        et sequi explicabo soluta! Lorem, ipsum.
+    </p>
+
+    <h>
+        <b>Some bold text.</b><i>Some italics text.</i><b><i>Some Bold and italics text</i></b>
+    </h>
+
+    <p>
+        <h2>Another second level heading</h2>
+    </p>
+
+    <img src="c:\Users\reddy\OneDrive\Desktop\wp1951692.webp" width="170" height="160" alt="c:\Users\reddy\OneDrive\Desktop\wp1951692.webp">
+
+    <p>
+        Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur, adipisicing elit.<br> Earum dolorum hic quas mollitia, perspiciatis molestiae accusamus voluptatibus possimus <br>nesciunt repellat aperiam voluptates pariatur magnam laborum, consequatur voluptatem! Ratione, amet ea?
+    </p>
+
+    <h2 style="color: blueviolet;">
+
+        <u>Professor Kostin's Freelance Website</u>
+
+    </h2>
+
+    <h2>An ordered list</h2>
+    <ol>
+        <li>Apples</li>
+        <li>Oranges</li>
+        <li>Strawberries</li>
+    </ol>
+
+    <h2>An unordered List</h2>
+    <ul>
+        <li>Unlock door</li>
+        <li>Open door</li>
+        <li>Walk on through</li>
+    </ul>
+
+</body>
+</html>
