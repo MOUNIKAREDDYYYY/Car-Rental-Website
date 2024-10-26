@@ -43,3 +43,70 @@
       margin-top:100px;
     }  
     }
+
+
+
+    .container1 {
+      background-image: url(https://img.pikbest.com/backgrounds/20190327/cute-cartoon-bus-banner-in-golden-autumn-travel-season_1845841.jpg!sw800)  ;
+      background-size: cover;
+      
+    
+      background-position: center;
+      text-align: center; 
+      padding: 20px; 
+      background-color: rgba(255, 255, 255, 0.8); 
+      border-radius: 10px; 
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+
+  
+
+
+
+
+
+
+
+
+
+  .btn-adventure {
+      font-size: 1.5em;
+      padding: 15px 30px;
+      background-color: #007BFF;
+      color: white;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+  }
+  .btn-adventure:hover {
+      background-color: #fcfcab; 
+  }
+
+   /* Contact Information Section */
+   .contact-info-section {
+    background-color: #d5eef8;
+  }
+  
+  .contact-info-section .fas {
+    color: #1fa3db;
+  }
+  
+  .contact-info-section p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+
+
+ /* Footer Section */
+ footer p {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #000;
+}
+
+footer a:hover {
+  color: #007bff;
+}

@@ -1,24 +1,28 @@
  body {
     margin: 0;
-    /* font-family: Arial, sans-serif; */
+    font-family: Arial, sans-serif; 
 } 
 
 .background-decorator {
-    background-image: url('https://thumbs.dreamstime.com/b/template-contacts-background-contact-information-lettering-contact-us-notebook-office-work-desk-template-118309216.jpg'); 
-    background-position: center;
+    background-image: url('https://cdn.pixabay.com/photo/2023/11/12/15/30/suv-8383283_960_720.jpg'); 
+    background-size: cover;
+    
+    /* background-position: center; */
+     background-attachment:fixed ; 
+    background-repeat: no-repeat; 
     padding: 50px 0;
     color: #fff; }
 
 .container {
     background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 10px; 
-    padding: 30px;
+    padding: 100px;
 }
 
 h1 {
     margin-bottom: 20px;
     font-size: 2.5rem;
-    color: #fff;
+    color: #f59898;
 }
 
 h3 {
@@ -43,3 +47,31 @@ h3 {
 .list-inline-item a:hover {
     text-decoration: underline;
 } 
+
+
+
+ /* Contact Information Section */
+ .contact-info-section {
+    background-color: #d5eef8;
+  }
+  
+  .contact-info-section .fas {
+    color: #1fa3db;
+  }
+  
+  .contact-info-section p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+
+
+ /* Footer Section */
+ footer p {
+  margin-bottom: 5px;
+}
+
+footer a {
+  color: #000;
+}
+

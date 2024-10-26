@@ -1,0 +1,51 @@
+  /* Background styling */
+  .bg-image {
+    background-image: url('https://www.ralphhayestoyota.com/blogs/1569/wp-content/uploads/2020/03/20_Toyota_4Runner_Venture_Edition_06-1500x1000.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    position: relative;
+  }
+   /* Dark overlay for better text visibility */
+   .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+
+  .car-catalogue {
+    margin-top: 40px;
+}
+.car-card {
+    transition: all 0.3s ease;
+    border-radius: 20px;
+}
+.car-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.car-card img {
+    border-radius: 20px 20px 0 0;
+}
+.car-card .car-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.car-card .btn-rent {
+    background-color: #e2ca50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+.car-card .btn-rent:hover {
+    background-color: #67a5e7;
+}
+
+

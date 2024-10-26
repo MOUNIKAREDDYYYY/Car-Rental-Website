@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+
+    <title>DriveNest-Booking Page</title>
+    <link rel="shortcut icon" href="https://images.unsplash.com/photo-1517271710308-aa99f1519490?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" type="image/x-icon">
+
+    <link rel="stylesheet" href="carrent website.css">
+    <link rel="stylesheet" href="Booking.css">
+    
+
+    <!-- BOOTSTRAP LINKS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    <!-- FontAwesome for Icons -->
+ <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+<!-- <style>
+.h11{
+  margin-top: 140px;
+}
+
+  .h12{
+    margin-top: 100px;
+  }
+  .h13{
+    margin-top: 100px;
+  }
+
+  @media screen and (min-width:220px) {
+    .h12{
+    margin-top: 90px;
+  }  
+  .h11{
+    margin-top: 90px;
+  }
+  }
+  
+  @media screen and (min-width:720px) {
+    .h12{
+    margin-top: 0px;
+  }  
+  }
+
+  
+  @media screen and (min-width:920px) {
+    .h11{
+    margin-top:100px;
+  }  
+  }
+
+</style> -->
+
+
+
+</head>
+
+<body>
+  <nav class="  navbar navbar-expand-sm bg-dark navbar-dark nav-under fixed-top ">
+
+    <div class="container-fluid " >
+      <a class="navbar-brand fs-2 fw-bold m-auto mx-5" href="#"><span style="color:#0dcaf0;">DRIVE</span ><span style="color: yellow;">NEST</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  text-white" id="navbarNav">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0  ">
+          <li class="nav-item">
+            <a class="nav-link text-white" aria-current="page" href="carrental websote.html">Home</a>
+          </li>&nbsp;  &nbsp;
+          <li class="nav-item" >
+            <a class="nav-link  text-white  "  aria-current="page" href="our cars.html" >Our Cars</a>
+          </li>&nbsp;  &nbsp;
+          <li class="nav-item ">
+            <a class="nav-link  text-white active" aria-current="page" href="Booking.html">Booking</a>
+          </li>&nbsp;  &nbsp;
+          <li class="nav-item  ">
+            <a class="nav-link  text-white" href="contact.html" >Contact</a>
+          </li>&nbsp;  &nbsp;
+        </ul>
+        <a href="signin.html" class="btn btn-info">SIGN IN</a>
+        <!-- <button type="button" class="btn btn-info">SIGN IN</button> -->
+      </div>
+
+    </div>
+  </nav>
+      <br>
+
+            <!-- Background Image -->
+  <div class="bg-image">
+    <div class="overlay">
+      <!-- Headline -->
+      <div class="container ">
+        <h1 class="display-4  fw-bold mt-5 text-left">Find Your <br>Ideal Car</h1>
+        <p class="text-white fw-bold mb-5 text-left ">Find cars for rent near you</p>
+        
+    
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid page-container">
+  <div class="header mt-3">
+      <h1>Compare Car Rentals </h1>
+  </div>
+
+  <div class="search-section">
+      <form>
+          
+          <div class="row">
+
+           
+              <div class="col-md-6 md-3 mb-3">
+                  <label for="pickup-location" class="form-label">Pick-Up Location</label>
+                  <input type="text" class="form-control" id="pickup-location" value="India">
+              </div>
+
+              <div class="col-md-6 md-3 mb-3">
+                <label for="Drop-Off" class="form-label">Drop Location</label>
+                <input type="text" class="form-control" id="Drop-Off" value="India">
+            </div>
+       
+         
+
+              <div class="col-md-6 mb-3">
+                  <label for="pickupDate" class="form-label">Pick-Up Date & Time</label>
+                  <input type="date" class="form-control  mb-3 " id="pickupDate" value="2024-10-31">
+                  <input type="time" class="form-control  mb-3" id="Pick-UpTIME" value="10:00 AM">
+              </div>
+              <div class="col-md-6 mb-3">
+                  <label for="dropoffDate" class="form-label">Drop-Off Date & Time</label>
+                  <input type="date" class="form-control  mb-3" id="dropoffDate" value="2024-11-07">
+                  <input type="time" class="form-control  mb-3" id="dropofftime" value="10:00 " >
+              </div>
+
+              <!-- <div class=" col-md-6 mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="priceAlert">
+                <label class="form-check-label" for="priceAlert">Alert me when prices drop</label>
+            </div>
+  
+            <a href="our cars.html" class=" col-md-6 mb-3 btn btn-warning w-50">Search</a> -->
+
+          </div>
+
+          <div class=" col-md-6 mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="priceAlert">
+              <label class="form-check-label" for="priceAlert">Alert me when prices drop</label>
+          </div>
+
+          <div class=" col-md-12 mb-3 text-center">
+            <a href="our cars.html" class=" col-md-6 mb-3 btn btn-warning w-50 text-center">Search</a>
+        </div>
+
+
+
+
+
+          
+      </form>
+  </div>
+
+  <div class="company-logos">
+      <img src="https://dpogroup.com/wp-content/uploads/2015/01/Kayak-logo.png" alt="Kayak Logo">
+      <img src="https://www.cypruswebsites.com/images/advertisments/416/nd/avis-car-rental-logo.png" alt="Avis Logo">
+  </div>
+
+  <div class="text-center mt-3">
+      <p>The cheapest car rental rates in India
+        are just a click away.</p>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<section class="vehicles-section my-5">
+  <div class="container">
+    <h2 class="mb-4 text-center">VEHICLES</h2>
+
+    <!-- Bootstrap Carousel -->
+    <div id="vehiclesCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- First slide with 3 vehicles -->
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-10 col-sm-6 col-md-4 mb-3">
+              <div class="vehicle-box p-3 text-center">
+                <img src="https://wandering-around.com/wp-content/uploads/2018/08/van_road_trip.jpg" alt="Station Wagon" class="img-fluid mb-2">
+                <h5>STATION WAGON</h5>
+                <p> VW Passat</p>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 mb-3">
+              <div class="vehicle-box p-3 text-center">
+                <img src="https://images.pexels.com/photos/12186447/pexels-photo-12186447.jpeg?cs=srgb&dl=pexels-alice-b-222950695-12186447.jpg&fm=jpg" alt="Large Premium" class="img-fluid mb-2">
+                <h5>LARGE: PREMIUM</h5>
+                <p> BMW 5</p>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 mb-3">
+              <div class="vehicle-box p-3 text-center">
+                <img src="https://images.unsplash.com/photo-1517271710308-aa99f1519490?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D" alt="Vintage Cars" class="img-fluid mb-2">
+                <h5>VINTAGE CARS</h5>
+                <p> Fiat 500</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Second slide with 3 vehicles -->
+        <div class="carousel-item">
+          <div class="row">
+            <div class=" col-10 col-sm-6 col-md-4 mb-3">
+              <div class="vehicle-box p-3 text-center">
+                <img src="https://www.usnews.com/object/image/0000018b-fa28-dc80-a9ef-ffe9f8290001/01-2024-chevrolet-corvette-angular-front-jmv.JPG?update-time=1700709318771&size=responsiveGallery" alt="Sports Car" class="img-fluid mb-2">
+                <h5>SPORTS CAR</h5>
+                <p> Porsche 911</p>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 mb-3">
+              <div class="vehicle-box p-3 text-center">
+                <img src="https://www.usnews.com/object/image/0000018d-3c53-d18f-ab9d-fcf7ea870001/2024-cadillac-escalade-v-series-010.jpg?update-time=1706114148921&size=responsive640" alt="SUV" class="img-fluid mb-2">
+                <h5>SUV</h5>
+                <p> Range Rover</p>
+              </div>
+            </div>
+            <div class="col-10 col-sm-6 col-md-4 mb-3">
+              <div class="vehicle-box p-3 text-center">
+                <img src="https://car-images.bauersecure.com/wp-images/4738/should_i_buy_an_electric_car.jpg" alt="Electric Car" class="img-fluid mb-2">
+                <h5>ELECTRIC CAR</h5>
+                <p> Tesla Model 3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#vehiclesCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#vehiclesCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+          <!-- Contact Information Section -->
+          <section class="contact-info-section text-center py-5 mt-5">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3">
+                  <i class="fas fa-mobile-alt fa-2x "></i>
+                  <p class="mt-2">+23456789</p>
+                </div>
+                <div class="col-md-3">
+                  <i class="fas fa-phone-alt fa-2x"></i>
+                  <p class="mt-2">+9763456787</p>
+                </div>
+                <div class="col-md-3">
+                  <i class="fas fa-map-marker-alt fa-2x"></i>
+                  <p class="mt-2">DriveNest </p>
+                </div>
+                <div class="col-md-3">
+                  <i class="fas fa-envelope fa-2x"></i>
+                  <p class="mt-2">info@DriveNest.info</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        
+           <!-- Footer Section -->
+           <footer class="text-center py-4">
+            <div class="container">
+              <p>© 2024 DriveNest All rights reserved.</p>
+              <div>
+                <a href="#" class="mr-3"><i class="fab fa-facebook-f"></i></a>&nbsp;
+                <a href="#" class="mr-3"><i class="fab fa-twitter"></i></a>&nbsp;
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </div>
+          </footer>
+        
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+    </html>
+   
