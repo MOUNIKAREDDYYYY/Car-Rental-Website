@@ -10,6 +10,7 @@
     background-position: center;
     height: 100vh;
     position: relative;
+    border-radius: 0px 0px 20px 20px;
   }
   
   /* Dark overlay for better text visibility */
@@ -20,6 +21,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-radius: 0px 0px 20px 20px;
   }
   
   /* Styling for the form and buttons */

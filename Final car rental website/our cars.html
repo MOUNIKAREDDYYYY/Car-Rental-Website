@@ -36,7 +36,7 @@
           <div class="collapse navbar-collapse  text-white" id="navbarNav">
             <ul class="navbar-nav m-auto mb-2 mb-lg-0  ">
               <li class="nav-item">
-                <a class="nav-link text-white" aria-current="page" href="carrental websote.html">Home</a>
+                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
               </li>&nbsp;  &nbsp;
               <li class="nav-item" >
                 <a class="nav-link  text-white  active"  aria-current="page" href="our cars.html" >Our Cars</a>
@@ -166,7 +166,21 @@
         </div>
 
         <div class="col-lg-3 col-md-4">
-          <input type="datetime-local" class="form-control" id="date"  value="2024-10-31" required>
+          <!-- <input type="datetime-local" class="form-control" placeholder="YYYY-MM-DDTHH:MM" /> -->
+
+          <!-- <input type="datetime-local" class="form-control" id="date"  placeholder="YYYY-MM-DDTHH:MM"  required> -->
+          <input type="text" class="form-control" id="custom-datetime" placeholder="DateTime" />
+          <script>
+              const input = document.getElementById('custom-datetime');
+              input.addEventListener('focus', () => {
+                  input.type = 'datetime-local';
+              });
+              input.addEventListener('blur', () => {
+                  if (!input.value) {
+                      input.type = 'text';
+                  }
+              });
+          </script>
         </div>
 
         <!-- <div class="col-lg-2 col-md-6">
@@ -273,11 +287,11 @@
 
 
   <!-- Our Services Section -->
-  <section class="services-section text-center ">
+  <section class="services-section text-center p-5">
       <h1>Our Services</h1>
       <div class="row mt-5">
-          <div class="col-md-4 mb-2">
-              <div class="service-card">
+          <div class="col-md-4 mb-2 ">
+              <div class="service-card ">
                   <div class="icon"><i class="fas fa-car"></i></div>
                   <h5>Diverse Vehicle Options</h5>
                   <p>Choose from a wide range of cars, SUVs, and vans tailored to your needs.</p>
