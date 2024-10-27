@@ -49,6 +49,47 @@
 
 
 
+/* .marquee */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9fcfd; /* Optional background color */
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff; /* Background color for the marquee */
+    padding: 10px 0; /* Padding for spacing */
+}
+
+.marquee-content {
+    display: inline-block;
+    animation: marquee 20s linear infinite; /* Speed of scrolling */
+}
+
+.marquee img {
+    height: 100px; /* Adjust height as needed */
+    margin: 0 20px; /* Space between logos */
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); } /* Move left by half of the total content */
+}
+
+
+
+
+
+
+
+
+
+
+
  /* Contact Information Section */
  .contact-info-section {
   background-color: #d5eef8;

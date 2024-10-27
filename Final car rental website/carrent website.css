@@ -47,9 +47,11 @@
 
 
     .container1 {
-      background-image: url(http://res.cloudinary.com/ybmedia/image/upload/c_crop,h_1123,w_2000,x_0,y_126/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/4/2/422c917a5d3d306a7b992a5dd256dbe25916d183/20-essential-tips-successful-road-trip.jpg);
-      /* background-image: url(https://img.pikbest.com/backgrounds/20190327/cute-cartoon-bus-banner-in-golden-autumn-travel-season_1845841.jpg!sw800)  ; */
-   
+      /* background-image: url(http://res.cloudinary.com/ybmedia/image/upload/c_crop,h_1123,w_2000,x_0,y_126/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/4/2/422c917a5d3d306a7b992a5dd256dbe25916d183/20-essential-tips-successful-road-trip.jpg);
+      background-image: url(https://img.pikbest.com/backgrounds/20190327/cute-cartoon-bus-banner-in-golden-autumn-travel-season_1845841.jpg!sw800)  ;
+    */
+
+    background-image: url(https://www.shutterstock.com/image-photo/road-landscape-red-car-beautiful-260nw-2377086843.jpg);
       background-size: cover;
       
     
@@ -84,19 +86,22 @@
       background-color: #fcfcab; 
   }
 
+
+
+
    /* Contact Information Section */
-   .contact-info-section {
-    background-color: #d5eef8;
-  }
-  
-  .contact-info-section .fas {
-    color: #1fa3db;
-  }
-  
-  .contact-info-section p {
-    font-size: 1rem;
-    margin-top: 10px;
-  }
+ .contact-info-section {
+  background-color: #d5eef8;
+}
+
+.contact-info-section .fas {
+  color: #1fa3db;
+}
+
+.contact-info-section p {
+  font-size: 1rem;
+  margin-top: 10px;
+}
 
 
 
