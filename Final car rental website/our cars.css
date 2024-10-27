@@ -56,24 +56,34 @@
     background: #7b7bff;
     font-family: Arial, sans-serif;
 }
-.dashboard-header {
-    background-color: #fff8c5;
+.dashboard-header { 
+  /* background-image: url(https://tse4.mm.bing.net/th?id=OIP.72JwTrV6UUK2ivf0SGJkXQHaEK&pid=Api&P=0&h=180); */
+   background-color: #67b1fb; 
+  
+    border-color: black; 
+    /* background-position: cover; */
+    /* background-attachment:fixed ; 
+    background: no-repeat; */
+  
+  
     padding: 30px;
     text-align: center;
+    margin: 20px 20px 20px 20px;
     border-bottom: 1px solid #ddd;
     border-radius:  30px 30px 30px 30px;
     
 }
 .dashboard-header h1 {
     font-size: 2rem;
-    margin-bottom: 0;
+    margin: 10px ;
+    /* margin-bottom: ; */
 }
 .filter-section {
     margin-top: 20px;
 }
 .filter-section .form-control, 
 .filter-section .btn {
-    background-color: rgb(157, 193, 241);
+    background-color: rgb(190, 221, 253);
     border-radius: 20px;
 }
 .car-catalogue {
@@ -81,14 +91,16 @@
 }
 .car-card {
     transition: all 0.3s ease;
-    border-radius: 10px;
+    border-radius: 20px 20px 20px 20px;
+  
+    /* border-radius: 80px; */
 }
 .car-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 .car-card img {
-    border-radius: 20px 20px 0 0;
+    border-radius: 0px 0px 0px 0px;
 }
 .car-card .car-price {
     font-size: 1.0rem;
@@ -133,6 +145,51 @@ footer a {
 color: #000;
 }
 
+
+
+
+
+
+
+
+
+
+
+body {
+  background-color: #eef2f3;
+  font-family: Arial, sans-serif;
+}
+.about-section {
+  background: linear-gradient(120deg, #3a88dc, #eefe77);
+  color: white;
+  padding: 80px 0;
+  position: relative;
+  border-radius: 20px;
+}
+.about-content {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+.service-card {
+  background: linear-gradient(120deg, #dde5ed, #77cafe);
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+.icon {
+  font-size: 40px;
+  color: #20201f;
+  margin-bottom: 15px;
+}
+.services-section {
+  padding: 60px 0;
+}
 
 
 

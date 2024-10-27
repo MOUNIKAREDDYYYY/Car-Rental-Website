@@ -47,7 +47,9 @@
 
 
     .container1 {
-      background-image: url(https://img.pikbest.com/backgrounds/20190327/cute-cartoon-bus-banner-in-golden-autumn-travel-season_1845841.jpg!sw800)  ;
+      background-image: url(http://res.cloudinary.com/ybmedia/image/upload/c_crop,h_1123,w_2000,x_0,y_126/c_fill,f_auto,h_900,q_auto,w_1600/v1/m/4/2/422c917a5d3d306a7b992a5dd256dbe25916d183/20-essential-tips-successful-road-trip.jpg);
+      /* background-image: url(https://img.pikbest.com/backgrounds/20190327/cute-cartoon-bus-banner-in-golden-autumn-travel-season_1845841.jpg!sw800)  ; */
+   
       background-size: cover;
       
     
@@ -109,4 +111,31 @@ footer a {
 
 footer a:hover {
   color: #007bff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about-section {
+  background: linear-gradient(120deg, #1b1b1c, #25272b);
+  color: rgb(250, 249, 249);
+  padding: 80px 0;
+  position: relative;
+  border-radius: 20px;
+  font-size: large;
+}
+.about-content {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
 }
